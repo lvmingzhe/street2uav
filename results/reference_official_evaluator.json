@@ -1,5 +1,5 @@
 {
- "source": "HyperFLAW official evaluator (corrected night pairing); street validation: src/eval_val.py",
+ "source": "HyperFLAW's official evaluation code (run_adapt.sh evaluation, corrected night pairing); street validation: the paper's validation script (same split and metric as street2uav/validate.py)",
  "test": {
   "final_s42": {
    "single": {
