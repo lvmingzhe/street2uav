@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+# local outputs (training runs, evaluation results, rendered overlays)
+runs/
+outputs/
+night_overlays/
+preds/
+*.log
+# downloaded or trained weights; the released decoders in checkpoints/ are tracked explicitly
+*.pth
+*.ckpt
+!checkpoints/final_s42.pth
+!checkpoints/final_s1.pth
+!checkpoints/final_s2.pth
+.ruff_cache/

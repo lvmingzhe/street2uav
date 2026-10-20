@@ -1,0 +1,12 @@
+{
+  "ckpt": "checkpoints/final_s42.pth",
+  "tta": false,
+  "n_images": 226,
+  "val": {
+    "miou": 74.89,
+    "miou_clear": 71.34,
+    "miou_fog": 80.49,
+    "miou_rain": 66.18,
+    "miou_night": 63.56
+  }
+}

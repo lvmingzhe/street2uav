@@ -1,0 +1,766 @@
+{
+ "source": "HyperFLAW official evaluator (corrected night pairing); street validation: src/eval_val.py",
+ "test": {
+  "final_s42": {
+   "single": {
+    "joint": 68.91,
+    "car": {
+     "miou": 74.85,
+     "weather": {
+      "clear": 75.23,
+      "fog": 78.4,
+      "rain": 76.01,
+      "night": 60.15
+     },
+     "class_iou": {
+      "road": 97.03,
+      "building": 89.11,
+      "vegetation": 87.04,
+      "person": 76.99,
+      "car": 91.64
+     }
+    },
+    "drone": {
+     "miou": 63.48,
+     "weather": {
+      "clear": 68.65,
+      "fog": 66.22,
+      "rain": 60.54,
+      "night": 51.67
+     },
+     "class_iou": {
+      "road": 73.39,
+      "building": 88.24,
+      "vegetation": 84.61,
+      "person": 14.9,
+      "car": 56.26
+     }
+    }
+   },
+   "tta": {
+    "joint": 70.62,
+    "car": {
+     "miou": 76.49,
+     "weather": {
+      "clear": 77.11,
+      "fog": 80.31,
+      "rain": 77.56,
+      "night": 61.42
+     },
+     "class_iou": {
+      "road": 97.22,
+      "building": 89.94,
+      "vegetation": 87.76,
+      "person": 79.65,
+      "car": 92.59
+     }
+    },
+    "drone": {
+     "miou": 65.97,
+     "weather": {
+      "clear": 71.43,
+      "fog": 69.41,
+      "rain": 62.64,
+      "night": 52.91
+     },
+     "class_iou": {
+      "road": 74.53,
+      "building": 88.94,
+      "vegetation": 85.32,
+      "person": 19.52,
+      "car": 61.53
+     }
+    }
+   }
+  },
+  "control_s42": {
+   "single": {
+    "joint": 44.04,
+    "car": {
+     "miou": 55.92,
+     "weather": {
+      "clear": 53.81,
+      "fog": 59.45,
+      "rain": 50.06,
+      "night": 43.08
+     },
+     "class_iou": {
+      "road": 94.51,
+      "building": 82.04,
+      "vegetation": 81.44,
+      "person": 58.94,
+      "car": 82.83
+     }
+    },
+    "drone": {
+     "miou": 24.15,
+     "weather": {
+      "clear": 25.03,
+      "fog": 18.37,
+      "rain": 31.06,
+      "night": 21.34
+     },
+     "class_iou": {
+      "road": 23.46,
+      "building": 41.5,
+      "vegetation": 49.13,
+      "person": 0.19,
+      "car": 6.45
+     }
+    }
+   },
+   "tta": {
+    "joint": 45.93,
+    "car": {
+     "miou": 57.45,
+     "weather": {
+      "clear": 55.47,
+      "fog": 60.44,
+      "rain": 52.03,
+      "night": 44.42
+     },
+     "class_iou": {
+      "road": 94.58,
+      "building": 82.64,
+      "vegetation": 82.12,
+      "person": 62.39,
+      "car": 82.76
+     }
+    },
+    "drone": {
+     "miou": 26.5,
+     "weather": {
+      "clear": 28.39,
+      "fog": 20.13,
+      "rain": 32.96,
+      "night": 22.84
+     },
+     "class_iou": {
+      "road": 25.05,
+      "building": 46.43,
+      "vegetation": 53.09,
+      "person": 0.19,
+      "car": 7.71
+     }
+    }
+   }
+  },
+  "final_s1": {
+   "single": {
+    "joint": 68.85,
+    "car": {
+     "miou": 75.02,
+     "weather": {
+      "clear": 75.39,
+      "fog": 78.59,
+      "rain": 76.39,
+      "night": 59.98
+     },
+     "class_iou": {
+      "road": 97.04,
+      "building": 89.15,
+      "vegetation": 87.0,
+      "person": 76.97,
+      "car": 91.84
+     }
+    },
+    "drone": {
+     "miou": 62.46,
+     "weather": {
+      "clear": 66.92,
+      "fog": 65.08,
+      "rain": 59.94,
+      "night": 51.86
+     },
+     "class_iou": {
+      "road": 71.78,
+      "building": 88.24,
+      "vegetation": 83.88,
+      "person": 14.08,
+      "car": 54.31
+     }
+    }
+   },
+   "tta": {
+    "joint": 70.59,
+    "car": {
+     "miou": 76.64,
+     "weather": {
+      "clear": 77.2,
+      "fog": 80.36,
+      "rain": 77.9,
+      "night": 61.44
+     },
+     "class_iou": {
+      "road": 97.23,
+      "building": 89.96,
+      "vegetation": 87.72,
+      "person": 79.69,
+      "car": 92.77
+     }
+    },
+    "drone": {
+     "miou": 65.1,
+     "weather": {
+      "clear": 69.9,
+      "fog": 68.28,
+      "rain": 62.26,
+      "night": 53.32
+     },
+     "class_iou": {
+      "road": 73.21,
+      "building": 89.08,
+      "vegetation": 84.86,
+      "person": 18.33,
+      "car": 60.01
+     }
+    }
+   }
+  },
+  "control_s1": {
+   "single": {
+    "joint": 41.87,
+    "car": {
+     "miou": 54.7,
+     "weather": {
+      "clear": 53.79,
+      "fog": 58.63,
+      "rain": 49.19,
+      "night": 42.73
+     },
+     "class_iou": {
+      "road": 94.43,
+      "building": 82.02,
+      "vegetation": 81.69,
+      "person": 58.79,
+      "car": 82.54
+     }
+    },
+    "drone": {
+     "miou": 23.64,
+     "weather": {
+      "clear": 25.49,
+      "fog": 20.19,
+      "rain": 30.08,
+      "night": 17.81
+     },
+     "class_iou": {
+      "road": 24.59,
+      "building": 38.22,
+      "vegetation": 48.94,
+      "person": 0.16,
+      "car": 6.29
+     }
+    }
+   },
+   "tta": {
+    "joint": 44.2,
+    "car": {
+     "miou": 56.66,
+     "weather": {
+      "clear": 55.2,
+      "fog": 60.99,
+      "rain": 51.0,
+      "night": 44.18
+     },
+     "class_iou": {
+      "road": 94.62,
+      "building": 82.69,
+      "vegetation": 82.42,
+      "person": 62.51,
+      "car": 82.72
+     }
+    },
+    "drone": {
+     "miou": 25.83,
+     "weather": {
+      "clear": 28.26,
+      "fog": 22.65,
+      "rain": 32.17,
+      "night": 19.49
+     },
+     "class_iou": {
+      "road": 26.01,
+      "building": 41.8,
+      "vegetation": 53.51,
+      "person": 0.2,
+      "car": 7.64
+     }
+    }
+   }
+  },
+  "final_s2": {
+   "single": {
+    "joint": 68.91,
+    "car": {
+     "miou": 74.99,
+     "weather": {
+      "clear": 75.2,
+      "fog": 78.59,
+      "rain": 75.93,
+      "night": 60.4
+     },
+     "class_iou": {
+      "road": 97.02,
+      "building": 89.2,
+      "vegetation": 87.06,
+      "person": 76.95,
+      "car": 91.83
+     }
+    },
+    "drone": {
+     "miou": 63.61,
+     "weather": {
+      "clear": 68.11,
+      "fog": 66.76,
+      "rain": 61.16,
+      "night": 52.39
+     },
+     "class_iou": {
+      "road": 70.85,
+      "building": 88.59,
+      "vegetation": 83.6,
+      "person": 17.1,
+      "car": 57.89
+     }
+    }
+   },
+   "tta": {
+    "joint": 70.61,
+    "car": {
+     "miou": 76.59,
+     "weather": {
+      "clear": 77.12,
+      "fog": 80.28,
+      "rain": 77.44,
+      "night": 61.64
+     },
+     "class_iou": {
+      "road": 97.2,
+      "building": 90.04,
+      "vegetation": 87.79,
+      "person": 79.63,
+      "car": 92.82
+     }
+    },
+    "drone": {
+     "miou": 66.13,
+     "weather": {
+      "clear": 70.92,
+      "fog": 69.91,
+      "rain": 63.38,
+      "night": 53.69
+     },
+     "class_iou": {
+      "road": 72.31,
+      "building": 89.3,
+      "vegetation": 84.52,
+      "person": 21.67,
+      "car": 62.84
+     }
+    }
+   }
+  },
+  "control_s2": {
+   "single": {
+    "joint": 44.66,
+    "car": {
+     "miou": 55.83,
+     "weather": {
+      "clear": 53.89,
+      "fog": 59.58,
+      "rain": 49.44,
+      "night": 43.42
+     },
+     "class_iou": {
+      "road": 94.6,
+      "building": 82.13,
+      "vegetation": 81.65,
+      "person": 59.11,
+      "car": 82.91
+     }
+    },
+    "drone": {
+     "miou": 25.88,
+     "weather": {
+      "clear": 28.72,
+      "fog": 20.83,
+      "rain": 30.57,
+      "night": 19.01
+     },
+     "class_iou": {
+      "road": 25.32,
+      "building": 44.56,
+      "vegetation": 55.01,
+      "person": 0.08,
+      "car": 4.44
+     }
+    }
+   },
+   "tta": {
+    "joint": 45.96,
+    "car": {
+     "miou": 56.94,
+     "weather": {
+      "clear": 55.0,
+      "fog": 60.46,
+      "rain": 50.83,
+      "night": 44.48
+     },
+     "class_iou": {
+      "road": 94.52,
+      "building": 82.75,
+      "vegetation": 82.29,
+      "person": 62.52,
+      "car": 82.91
+     }
+    },
+    "drone": {
+     "miou": 27.86,
+     "weather": {
+      "clear": 31.32,
+      "fog": 22.3,
+      "rain": 32.48,
+      "night": 20.77
+     },
+     "class_iou": {
+      "road": 26.61,
+      "building": 48.49,
+      "vegetation": 58.1,
+      "person": 0.15,
+      "car": 5.95
+     }
+    }
+   }
+  },
+  "dinov2_s42": {
+   "tta": {
+    "joint": 65.89,
+    "car": {
+     "miou": 72.73,
+     "weather": {
+      "clear": 72.87,
+      "fog": 75.87,
+      "rain": 72.91,
+      "night": 58.03
+     },
+     "class_iou": {
+      "road": 96.14,
+      "building": 88.11,
+      "vegetation": 85.92,
+      "person": 75.62,
+      "car": 90.38
+     }
+    },
+    "drone": {
+     "miou": 58.8,
+     "weather": {
+      "clear": 64.39,
+      "fog": 60.79,
+      "rain": 57.37,
+      "night": 45.05
+     },
+     "class_iou": {
+      "road": 63.18,
+      "building": 85.13,
+      "vegetation": 80.36,
+      "person": 15.32,
+      "car": 50.02
+     }
+    }
+   }
+  },
+  "linear_s42": {
+   "tta": {
+    "joint": 69.56,
+    "car": {
+     "miou": 75.28,
+     "weather": {
+      "clear": 75.49,
+      "fog": 78.81,
+      "rain": 76.71,
+      "night": 61.17
+     },
+     "class_iou": {
+      "road": 96.34,
+      "building": 89.08,
+      "vegetation": 86.99,
+      "person": 78.52,
+      "car": 91.57
+     }
+    },
+    "drone": {
+     "miou": 67.01,
+     "weather": {
+      "clear": 72.71,
+      "fog": 69.94,
+      "rain": 63.88,
+      "night": 52.82
+     },
+     "class_iou": {
+      "road": 76.55,
+      "building": 89.14,
+      "vegetation": 85.58,
+      "person": 21.5,
+      "car": 62.26
+     }
+    }
+   }
+  }
+ },
+ "street_validation_miou": {
+  "final_s42": {
+   "single": 74.89,
+   "tta": 76.2
+  },
+  "final_s1": {
+   "single": 75.14
+  },
+  "final_s2": {
+   "single": 74.87
+  },
+  "control_s42": {
+   "single": 57.51
+  }
+ },
+ "three_seed_mean_std": {
+  "final_tta": {
+   "joint": [
+    70.61,
+    0.02
+   ],
+   "car": [
+    76.57,
+    0.08
+   ],
+   "drone": [
+    65.73,
+    0.55
+   ],
+   "drone_clear": [
+    70.75,
+    0.78
+   ],
+   "drone_fog": [
+    69.2,
+    0.84
+   ],
+   "drone_rain": [
+    62.76,
+    0.57
+   ],
+   "drone_night": [
+    53.31,
+    0.39
+   ],
+   "drone_cls_car": [
+    61.46,
+    1.42
+   ],
+   "drone_cls_person": [
+    19.84,
+    1.69
+   ]
+  },
+  "final_single": {
+   "joint": [
+    68.89,
+    0.03
+   ],
+   "car": [
+    74.95,
+    0.09
+   ],
+   "drone": [
+    63.18,
+    0.63
+   ],
+   "drone_clear": [
+    67.89,
+    0.89
+   ],
+   "drone_fog": [
+    66.02,
+    0.86
+   ],
+   "drone_rain": [
+    60.55,
+    0.61
+   ],
+   "drone_night": [
+    51.97,
+    0.37
+   ],
+   "drone_cls_car": [
+    56.15,
+    1.79
+   ],
+   "drone_cls_person": [
+    15.36,
+    1.56
+   ]
+  },
+  "control_tta": {
+   "joint": [
+    45.36,
+    1.01
+   ],
+   "car": [
+    57.02,
+    0.4
+   ],
+   "drone": [
+    26.73,
+    1.03
+   ],
+   "drone_clear": [
+    29.32,
+    1.73
+   ],
+   "drone_fog": [
+    21.69,
+    1.37
+   ],
+   "drone_rain": [
+    32.54,
+    0.4
+   ],
+   "drone_night": [
+    21.03,
+    1.69
+   ],
+   "drone_cls_car": [
+    7.1,
+    1.0
+   ],
+   "drone_cls_person": [
+    0.18,
+    0.03
+   ]
+  },
+  "control_single": {
+   "joint": [
+    43.52,
+    1.47
+   ],
+   "car": [
+    55.48,
+    0.68
+   ],
+   "drone": [
+    24.56,
+    1.17
+   ],
+   "drone_clear": [
+    26.41,
+    2.01
+   ],
+   "drone_fog": [
+    19.8,
+    1.28
+   ],
+   "drone_rain": [
+    30.57,
+    0.49
+   ],
+   "drone_night": [
+    19.39,
+    1.79
+   ],
+   "drone_cls_car": [
+    5.73,
+    1.12
+   ],
+   "drone_cls_person": [
+    0.14,
+    0.06
+   ]
+  }
+ },
+ "table3_ablation_seed42": {
+  "final": {
+   "val": 76.2,
+   "car": 76.49,
+   "drone": 65.97,
+   "night": 52.91,
+   "delta_drone": 0.0
+  },
+  "linear_head": {
+   "val": 74.41,
+   "car": 75.28,
+   "drone": 67.01,
+   "night": 52.82,
+   "delta_drone": 1.04
+  },
+  "dinov2_s630": {
+   "val": 73.03,
+   "car": 72.73,
+   "drone": 58.8,
+   "night": 45.05,
+   "delta_drone": -7.17
+  },
+  "finetuned_radio": {
+   "val": 80.36,
+   "car": 78.87,
+   "drone": 67.1,
+   "night": 48.09,
+   "delta_drone": 1.13
+  },
+  "short_side_432": {
+   "val": 72.68,
+   "car": 72.44,
+   "drone": 59.26,
+   "night": 48.63,
+   "delta_drone": -6.71
+  },
+  "square_720": {
+   "val": 73.15,
+   "car": 72.92,
+   "drone": 62.53,
+   "night": 52.83,
+   "delta_drone": -3.44
+  },
+  "no_augmentation": {
+   "val": 76.11,
+   "car": 76.43,
+   "drone": 65.22,
+   "night": 50.53,
+   "delta_drone": -0.75
+  },
+  "acdc_only": {
+   "val": 73.97,
+   "car": 73.9,
+   "drone": 62.88,
+   "night": 52.76,
+   "delta_drone": -3.09
+  },
+  "cityscapes_only": {
+   "val": 72.45,
+   "car": 73.35,
+   "drone": 65.29,
+   "night": 49.84,
+   "delta_drone": -0.68
+  },
+  "no_acdc_night": {
+   "val": 75.46,
+   "car": 75.86,
+   "drone": 65.19,
+   "night": 51.47,
+   "delta_drone": -0.78
+  },
+  "plus_aeroscapes": {
+   "val": 75.46,
+   "car": 75.46,
+   "drone": 65.72,
+   "night": 53.33,
+   "delta_drone": -0.25
+  },
+  "single_pass": {
+   "val": 74.89,
+   "car": 74.85,
+   "drone": 63.48,
+   "night": 51.67,
+   "delta_drone": -2.49
+  }
+ }
+}

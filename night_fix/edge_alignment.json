@@ -1,0 +1,24 @@
+{
+  "night": {
+    "n_images": 50,
+    "n_candidate_labels": 50,
+    "same_name_is_best": 47,
+    "same_name_rank_median": 1.0,
+    "same_name_rank_max": 25,
+    "score_same_name_mean": 1.441,
+    "score_all_pairs_mean": 1.052,
+    "official_partner_is_best": 1,
+    "official_partner_rank_median": 29.5,
+    "score_official_partner_mean": 1.035,
+    "same_name_beats_partner": 49
+  },
+  "day_control": {
+    "n_images": 112,
+    "n_candidate_labels": 112,
+    "same_name_is_best": 110,
+    "same_name_rank_median": 1.0,
+    "same_name_rank_max": 2,
+    "score_same_name_mean": 1.531,
+    "score_all_pairs_mean": 1.015
+  }
+}

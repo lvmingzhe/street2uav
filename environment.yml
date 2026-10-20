@@ -1,0 +1,16 @@
+# The environment used for the paper's numbers (one RTX 4080 SUPER, CUDA 11.3).
+name: street2uav
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=1.10.1
+  - torchvision=0.11.2
+  - cudatoolkit=11.3
+  - numpy=1.26.3
+  - pillow=9.4.0
+  - pip
+  - pip:
+      - timm==0.9.16
+      - einops==0.8.2
